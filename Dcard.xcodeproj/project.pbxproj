@@ -7,19 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B672FD2A23EAD19B00BF9774 /* DcardTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B672FD2923EAD19B00BF9774 /* DcardTableViewController.swift */; };
+		B672FD2C23EAD1B400BF9774 /* DecardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B672FD2B23EAD1B400BF9774 /* DecardTableViewCell.swift */; };
+		B686166223ED3AF800873C11 /* DcardDetialTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B686166123ED3AF800873C11 /* DcardDetialTableViewController.swift */; };
+		B686166423ED3C6B00873C11 /* DcardDetialTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B686166323ED3C6B00873C11 /* DcardDetialTableViewCell.swift */; };
+		B6A2F89623EBEB9E0051D9A6 /* DcardClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A2F89523EBEB9E0051D9A6 /* DcardClient.swift */; };
+		B6A2F89823EBEFBB0051D9A6 /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A2F89723EBEFBB0051D9A6 /* Feed.swift */; };
+		B6A2F89A23EBF0420051D9A6 /* FeedDetial.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A2F89923EBF0420051D9A6 /* FeedDetial.swift */; };
 		B6C8BFD323E8FFFD00B97530 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C8BFD223E8FFFD00B97530 /* AppDelegate.swift */; };
 		B6C8BFD523E8FFFD00B97530 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C8BFD423E8FFFD00B97530 /* SceneDelegate.swift */; };
-		B6C8BFD723E8FFFD00B97530 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C8BFD623E8FFFD00B97530 /* ViewController.swift */; };
 		B6C8BFDA23E8FFFD00B97530 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6C8BFD823E8FFFD00B97530 /* Main.storyboard */; };
 		B6C8BFDC23E9000200B97530 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6C8BFDB23E9000200B97530 /* Assets.xcassets */; };
 		B6C8BFDF23E9000200B97530 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6C8BFDD23E9000200B97530 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B672FD2923EAD19B00BF9774 /* DcardTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DcardTableViewController.swift; sourceTree = "<group>"; };
+		B672FD2B23EAD1B400BF9774 /* DecardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecardTableViewCell.swift; sourceTree = "<group>"; };
+		B686166123ED3AF800873C11 /* DcardDetialTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DcardDetialTableViewController.swift; sourceTree = "<group>"; };
+		B686166323ED3C6B00873C11 /* DcardDetialTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DcardDetialTableViewCell.swift; sourceTree = "<group>"; };
+		B6A2F89523EBEB9E0051D9A6 /* DcardClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DcardClient.swift; sourceTree = "<group>"; };
+		B6A2F89723EBEFBB0051D9A6 /* Feed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
+		B6A2F89923EBF0420051D9A6 /* FeedDetial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedDetial.swift; sourceTree = "<group>"; };
 		B6C8BFCF23E8FFFD00B97530 /* Dcard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dcard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6C8BFD223E8FFFD00B97530 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B6C8BFD423E8FFFD00B97530 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B6C8BFD623E8FFFD00B97530 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B6C8BFD923E8FFFD00B97530 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B6C8BFDB23E9000200B97530 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B6C8BFDE23E9000200B97530 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,11 +70,17 @@
 			children = (
 				B6C8BFD223E8FFFD00B97530 /* AppDelegate.swift */,
 				B6C8BFD423E8FFFD00B97530 /* SceneDelegate.swift */,
-				B6C8BFD623E8FFFD00B97530 /* ViewController.swift */,
 				B6C8BFD823E8FFFD00B97530 /* Main.storyboard */,
 				B6C8BFDB23E9000200B97530 /* Assets.xcassets */,
 				B6C8BFDD23E9000200B97530 /* LaunchScreen.storyboard */,
 				B6C8BFE023E9000200B97530 /* Info.plist */,
+				B672FD2923EAD19B00BF9774 /* DcardTableViewController.swift */,
+				B672FD2B23EAD1B400BF9774 /* DecardTableViewCell.swift */,
+				B6A2F89523EBEB9E0051D9A6 /* DcardClient.swift */,
+				B6A2F89723EBEFBB0051D9A6 /* Feed.swift */,
+				B6A2F89923EBF0420051D9A6 /* FeedDetial.swift */,
+				B686166123ED3AF800873C11 /* DcardDetialTableViewController.swift */,
+				B686166323ED3C6B00873C11 /* DcardDetialTableViewCell.swift */,
 			);
 			path = Dcard;
 			sourceTree = "<group>";
@@ -138,9 +156,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6C8BFD723E8FFFD00B97530 /* ViewController.swift in Sources */,
+				B672FD2C23EAD1B400BF9774 /* DecardTableViewCell.swift in Sources */,
 				B6C8BFD323E8FFFD00B97530 /* AppDelegate.swift in Sources */,
+				B6A2F89823EBEFBB0051D9A6 /* Feed.swift in Sources */,
+				B6A2F89A23EBF0420051D9A6 /* FeedDetial.swift in Sources */,
+				B672FD2A23EAD19B00BF9774 /* DcardTableViewController.swift in Sources */,
 				B6C8BFD523E8FFFD00B97530 /* SceneDelegate.swift in Sources */,
+				B6A2F89623EBEB9E0051D9A6 /* DcardClient.swift in Sources */,
+				B686166423ED3C6B00873C11 /* DcardDetialTableViewCell.swift in Sources */,
+				B686166223ED3AF800873C11 /* DcardDetialTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
